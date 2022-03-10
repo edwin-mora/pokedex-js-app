@@ -6,15 +6,12 @@ let pokemonList = [
     {name: 'Pidgey', height: 0.3, type: ['normal', ' flying']}
 ];
 // create a for loop that iterates over each item in pokemonList
-let text = "";
-let i = 0;
 
-while (pokemonList[i]){
-    text = text + " " + "<p>" + pokemonList[i].name + " "+  pokemonList[i].height + " " + pokemonList[i].type;
-    i++;
+for (let i = 0; i < pokemonList.length; i++){
+    document.write("<p>" +pokemonList[i].name + "</p>")
+    document.write("<p>" +pokemonList[i].height + "</p>")
+    document.write("<p>" +pokemonList[i].type + "</p>")
 }
-
-document.write(text);
 
 
 
