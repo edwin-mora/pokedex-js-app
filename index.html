@@ -6,26 +6,22 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <title>Simple JS App</title>
   </head>
   <body>
     <h1>Pokedex</h1>
+
+    <button id="show-modal"></button>
+    <div id="modal-container"></div>
+
+    <div class="pokedex-container">
+        <p class="loading-pokedex hidden"></p>
+    </div>
     <ul class="pokemon-list"></ul>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -38,6 +34,8 @@
 <script src="./js/promise-polyfill.js"></script>
 <script src="./js/fetch-polyfill.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+<!-- <script src="./js/modal.js"></script> -->
 <script src="./js/scripts.js"></script>
+
   </body>
 </html>
